@@ -1,4 +1,4 @@
-package kr.co.modernwave.main;
+package kr.co.modernwave.tdd;
 
 import static org.junit.Assert.assertEquals;
 
@@ -75,7 +75,7 @@ class MemberService {
 	public String save(Member member) {
 		String uuid = makeUuid(member);
 		list.add(member);
-		
+
 		return uuid;
 	}
 
