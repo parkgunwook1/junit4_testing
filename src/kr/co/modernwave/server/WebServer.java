@@ -32,6 +32,7 @@ public class WebServer {
 	public void start() throws Exception {
 		Logger.Write.info("NanoServer Started on port : %d", port);
 
+		
 		server.addContext("/api/{urlpath}", new GetCommonServer());
 	}
 

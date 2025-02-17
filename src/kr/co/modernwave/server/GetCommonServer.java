@@ -15,6 +15,7 @@ public class GetCommonServer extends DefaultMethodContext {
 
 	private Map<String, String> urlPath;
 	private Gson gson = new Gson();
+	public static String value;
 
 	public GetCommonServer() {
 		this.urlPath = new HashMap<>();
@@ -24,6 +25,10 @@ public class GetCommonServer extends DefaultMethodContext {
 		return gson.toJson(urlPath, Map.class);
 	}
 
+	public static String getValue() {
+		return value;
+	}
+
 	@Override
 	public Response GET(RestRequest request) {
 		Logger.Write.info("GetCommonServer - start...");
@@ -31,6 +36,8 @@ public class GetCommonServer extends DefaultMethodContext {
 		for (Map.Entry<String, String> i : request.getPathValues().entrySet()) {
 			String key = i.getKey().replace("{", "").replace("}", "");
 			String value = i.getValue();
+			this.value = value;
+
 			System.out.printf("PathValue %s:$s%n", key, value);
 			urlPath.put(key, value);
 		}
