@@ -1,4 +1,4 @@
-package kr.co.modernwave.server;
+package kr.co.study.server;
 
 import java.util.HashMap;
 import java.util.Map;

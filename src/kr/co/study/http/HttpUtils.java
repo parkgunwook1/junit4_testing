@@ -1,4 +1,4 @@
-package kr.co.modernwave.http;
+package kr.co.study.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;

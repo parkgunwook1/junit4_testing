@@ -1,4 +1,4 @@
-package kr.co.modernwave.tdd;
+package kr.co.study.junit.tdd;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,9 +6,9 @@ import java.net.HttpURLConnection;
 
 import org.junit.Test;
 
-import kr.co.modernwave.http.HttpUtils;
-import kr.co.modernwave.server.WSServer;
-import kr.co.modernwave.server.WebServer;
+import kr.co.study.http.HttpUtils;
+import kr.co.study.server.WSServer;
+import kr.co.study.server.WebServer;
 
 public class WebServerTest {
 	
@@ -37,7 +37,7 @@ public class WebServerTest {
 		// when : 저장
 
 		// then : 확인
-		assertEquals(port, server.getPort());
+		assertEquals("test" ,port, server.getPort());
 
 	}
 

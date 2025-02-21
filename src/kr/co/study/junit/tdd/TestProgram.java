@@ -1,4 +1,4 @@
-package kr.co.modernwave.tdd;
+package kr.co.study.junit.tdd;
 
 import static org.junit.Assert.assertEquals;
 

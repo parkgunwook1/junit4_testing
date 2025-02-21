@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>test program</comment>
+	
+	<entry key="type">CRONTAB</entry>
+	
+	<entry key="HTTP.PORT">28144</entry>
+	
+	<entry key="DB.DBType">mysql</entry>
+	<entry key="DB.Server">192.168.0.20</entry>
+	<entry key="DB.Port">23398</entry>
+	<entry key="DB.Database">ivr_v1</entry>
+	<entry key="DB.User">root</entry>
+	<entry key="DB.Password">Modern#600</entry>
+	<entry key="DB.Mode">Y</entry>
+	<entry key="DB.ENCRYPT.YN">N</entry>
+	
+	<entry key="Verify.Time">30000</entry>
+  	
+</properties>

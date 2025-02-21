@@ -1,4 +1,4 @@
-package kr.co.modernwave.server;
+package kr.co.study.server;
 
 import java.io.IOException;
 import java.security.KeyStoreException;
